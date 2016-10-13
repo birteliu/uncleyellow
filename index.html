@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Less Practice</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="less/less.less">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <script>
+    less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false,
+        rootpath: ":/a.com/"
+    };
+    </script>
+    <script src="js/less.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="page">
+        <div class="content">
+            <div class="leftRegion">
+                <div class="circle">
+                    <div class="smallCircle"></div>
+                </div>
+                <h2>Uncle Yellow</h2>
+                <h5>歡迎來到小黃叔叔包車</h5>
+                <ul>
+                    <li><i class="fa fa-circle-thin"></i> 為您量身規劃的旅程安排</li>
+                    <li><i class="fa fa-circle-thin"></i> 詳盡的導遊解說與舒適的座車體驗</li>
+                    <li><i class="fa fa-circle-thin"></i> 24小時專業服務，保險收費安全可靠</li>
+                </ul>
+            </div>
+            <div class="rightRegion">
+                <div class="topSign">
+                    <a href="" class="signUp">註冊</a>
+                    <span> &nbsp;/&nbsp; </span>
+                    <a href="" class="signIn">登入</a>
+                </div>
+                <div class="middleSection">
+                    <h2>註冊會員</h2>
+                    <form action="xxxxx.php" method="get">
+                        <input type="text" placeholder=" 帳號 " required="required"><br> 
+                        <input type="password" placeholder=" 密碼 " required="required"><br>
+                        <input type="email" placeholder=" 電子郵件 " required="required" name="femail"><br>
+                        <p>
+                            <input type="checkbox" id="test1" />
+                            <label for="test1">我同意 Uncle Yellow 的服務條款與隱私政策</label>
+                        </p>
+                        <input type='submit' value="註冊"> <span><a href="">已經是會員</a></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
